@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    tools:context="com.teja.apple.oakridgeinternationalschool.LoginActivity">
+    tools:context="com.teja.apple.oakridgeinternationalschool.Activities.LoginActivity">
 
     <android.support.v7.widget.AppCompatImageView
         android:id="@+id/i"
@@ -39,7 +38,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginTop="5dp"
-                    android:hint="@string/student_id"
+                    android:hint="@string/Admissionid"
                     android:drawableLeft="@drawable/ic_person"
                     android:textColor="@android:color/black" />
             </android.support.design.widget.TextInputLayout>
@@ -58,7 +57,6 @@
                     android:layout_marginTop="5dp"
                     android:hint="@string/password"
                     android:inputType="textPassword"
-                    android:drawableLeft="@drawable/ic_pass"
                     android:textColor="@android:color/black" />
             </android.support.design.widget.TextInputLayout>
 
@@ -103,3 +101,7 @@
             android:textSize="20sp" />
     </LinearLayout>
 </RelativeLayout>
+
+
+
+
